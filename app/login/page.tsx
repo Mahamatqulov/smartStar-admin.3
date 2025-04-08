@@ -134,7 +134,7 @@ export default function LoginPage() {
                       : "border-gray-300"
                   } rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 text-sm`}
                   placeholder="Enter your username"
-                  value={username}
+                  // value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   disabled={loading}
                 />
@@ -169,7 +169,7 @@ export default function LoginPage() {
                       : "border-gray-300"
                   } rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-all duration-200 text-sm`}
                   placeholder="Enter your password"
-                  value={password}
+                  // value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   disabled={loading}
                 />
